@@ -1,0 +1,24 @@
+bash
+kubectl version --client
+kubectl cluster-info
+
+create:
+nginx-deployment.yaml
+
+apply:
+bash
+kubectl apply -f nginx-deployment.yaml
+
+check
+Bash
+kubectl get pods
+
+expose:
+bash
+kubectl expose deployment nginx-deployment --type=NodePort --name=nginx-service
+
+get the service:
+bash
+kubectl get svc
+
+go to chrome-localhost:
