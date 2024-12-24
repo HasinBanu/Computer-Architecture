@@ -1,0 +1,6 @@
+open new folder
+copy the folder url
+paste it in git bash by( cd" ")
+before that open the github 
+git clone paste (the github url)
+ls
