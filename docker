@@ -10,3 +10,15 @@ CMD ["python", "first.py"]
 first:
 print("hello")
 
+go to the folder select the docker folder there click on the above and clear the url 
+there type cmd 
+
+check herether the python is there or not
+type docker build -t python3130 -trial
+docker run python python3130-trial
+docker tag python3130-trial
+docker push hasinbanu/python3130-trial
+docker ps
+docker ps a
+go to docker and run
+
