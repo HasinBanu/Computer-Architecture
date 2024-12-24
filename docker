@@ -1,0 +1,12 @@
+create an emty folder caller docker
+then add two files named dockerfile.unknown and first
+
+dockerfile.unknown:
+FROM python:3.12.4-slim
+WORKDIR /app
+COPY first.py /app/
+CMD ["python", "first.py"]
+
+first:
+print("hello")
+
